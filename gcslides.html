@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+		<title>My Professional Slides</title>
+
+		<!-- These links replace your "dist/" folders so it works for free on Netlify -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com" />
+		
+		<!-- THEME: 'Light' matches the Glocoach style better than 'Black' -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com" />
+
+		<style>
+			/* Custom Glocoach Styling */
+			:root { --r-main-color: #222; --r-heading-color: #1a5cff; }
+			.reveal h1, .reveal h2 { font-weight: 700; text-transform: none; }
+			.reveal .slides section { text-align: left; } /* Professional left-align */
+		</style>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				
+				<!-- SLIDE 1 -->
+				<section>
+					<h1>Welcome</h1>
+					<p>This is your first professional slide.</p>
+				</section>
+
+				<!-- SLIDE 2 -->
+				<section>
+					<h2>Your Content</h2>
+					<ul>
+						<li>Add your points here</li>
+						<li>Everything is free on Netlify</li>
+					</ul>
+				</section>
+
+				<!-- SLIDE 3: Add as many <section> blocks as you need! -->
+				<section data-background-color="#1a5cff">
+					<h2 style="color: white;">Blue Background Slide</h2>
+					<p style="color: white;">Great for transitions.</p>
+				</section>
+
+			</div>
+		</div>
+
+		<!-- Scripts pulled from the web so you don't need to upload plugins -->
+		<script src="https://cdnjs.cloudflare.com"></script>
+		<script>
+			Reveal.initialize({
+				hash: true,
+				center: true,
+				transition: 'slide', // Options: fade, slide, convex, zoom
+				controls: true,
+				progress: true
+			});
+		</script>
+	</body>
+</html>
